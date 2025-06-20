@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import {Home, About, Contact, Login, Register, ErrorPage} from "./pages/index";
+import {Home, About, Contact, Login, Register, ErrorPage, Resume, Projects} from "./pages/index";
 
 const router = createBrowserRouter([
     {
@@ -23,6 +23,14 @@ const router = createBrowserRouter([
       path: "/register",
       element: <Register /> 
     },
+    {
+      path: "/projects",
+      element: <Projects />
+    },
+    {
+      path: "/resume",
+      element: <Resume />
+    }
   ]);
 export const Router = () => {
     return (

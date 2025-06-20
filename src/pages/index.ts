@@ -4,12 +4,16 @@ import { Contact } from "./contact";
 import { Login } from "./login";
 import { Register } from "./register";
 import { ErrorPage } from "./errorpage";
+import { Projects } from "./projects";
+import { Resume } from "./resume";
 
-export  {
+export {
     Home,
     About,
     Contact,
     Login,
     Register,
-    ErrorPage
+    ErrorPage,
+    Projects,
+    Resume
 };

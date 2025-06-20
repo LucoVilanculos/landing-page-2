@@ -1,4 +1,4 @@
-import { Layout } from "phosphor-react";
+import { Layout } from "../components/layout";
 
 export const Contact = () => {
     return (
